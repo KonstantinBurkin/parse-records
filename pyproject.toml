@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "parse-records"
+version = "0.1.0"
+description = ""
+authors = ["Konstantin Burkin"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+patool = "^2.4.0"
+unrar = "^0.4"
+pyunpack = "^0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
