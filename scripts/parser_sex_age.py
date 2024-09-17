@@ -15,7 +15,12 @@ def get_sex(data):
 
 
 def get_age(data):
-    short_path_to_section = ["recordTarget", "patientRole", "patient", "birthTime"]
+    short_path_to_section = [
+        "recordTarget",
+        "patientRole",
+        "patient",
+        "birthTime",
+    ]
 
     section_fields = find_section_by_optimized_path(data, short_path_to_section)
 
