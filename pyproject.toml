@@ -11,6 +11,7 @@ pandas = "^2.2.2"
 patool = "^2.4.0"
 unrar = "^0.4"
 pyunpack = "^0.3"
+graphviz = "^0.20.3"
 
 
 [build-system]
