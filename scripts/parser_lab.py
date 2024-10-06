@@ -111,5 +111,10 @@ class LabParser(ParserFunctions):
             )
             .to_dict("records")[0]
         )
+        lab_features.update(
+            {
+                "lab_date": table["Дата"].dropna().values[0],
+            }
+        )
 
         return lab_features
