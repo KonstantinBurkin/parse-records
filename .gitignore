@@ -124,6 +124,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.venv*
 env/
 venv/
 ENV/
@@ -165,3 +166,5 @@ data
 .DS_store
 notes.md
 run.ipynb
+
+catboost_info
